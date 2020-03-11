@@ -55,6 +55,13 @@ margin-right:auto;
 font-size:14px;
 }
 
+.botonquenoquiero
+{
+    color: white;
+    visibility: hidden;
+}
+
+
 #location {
 color:#999999;
 font-size:12px;
@@ -176,10 +183,10 @@ font-size:9pt;
 <td style="vertical-align:top;">
 <input type="button" value="Generar Tabla de Verdad" onclick="construct();"><br><br>
 <div>Type of Table:</div>
-<input type="radio" name="style" id="full" checked>Tabla Completa<br>
+<input  type="radio" name="style" id="full" checked>Tabla Completa<br>
 <input type="radio" name="style" id="main">Solo resultado<br>
-<input type="radio" name="style" id="text">Tabla de texto<br>
-<input type="radio" name="style" id="latex">Codigo<br> 
+<input class="botonquenoquiero" type="radio" name="style" id="text">Tabla de texto<br>
+<input class="botonquenoquiero" type="radio" name="style" id="latex">Codigo<br> 
 </td>
 
 </tr>
